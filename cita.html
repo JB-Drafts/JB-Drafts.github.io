@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cita.css">
+    <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/cursivo-cuba.css">
+    <title>Agendar cita</title>
+</head>
+    <body>     
+        <header>
+            <h1 class="titulo">JB the Draftsman</h1>
+        </header>
+
+        <div id="citanav">
+            <nav class="menuu">
+                <a class="f-1" href="index.html"><b>Inicio/Tarjeta</b></a> 
+                <a class="f-2" href="informacion.html"><b>Informacion</b></a>
+                <a class="f-3" href="portfolio.html"><b>Portfolio</b></a>
+            </nav>
+        </div>
+
+        <table class="tabla">
+            <div class="agendar">
+                <form class="formulario" action="https://formsubmit.co/5800f6e0f41a7facf1f1d0360bdb0c70" method="POST">
+                    
+                    <label for="nombre" >Nombre:</label>
+                    <input type="text" name="nombre" required><br>
+                    <label for="apellido" >Apellido:</label>
+                    <input type="text" name="apellido" required><br>
+                    <label for="email">Email:</label>
+                    <input style="margin-bottom: 2px ;" type="email" name="email" required><br>
+                    <label for="mensaje">mensaje:</label>
+                    <textarea name="mensaje" rows="4" cols="3" required ></textarea>
+                    <br>
+
+                    <label for="rango">¿Que te parece esta forma para agendar citas?</label><br>
+                    <input type="range" name="rango">
+                    <br>
+
+                    <label for="Enviar"></label>
+                    <input type="submit" name="Enviar" required  id="enviar">
+
+                   
+                </form>
+            </div>
+        </table>
+
+        <aside class="aside">
+            <p class="horarios">Horarios disponibles.</p>
+            <div class="t-horarios">
+                <table>
+                    <tr>
+                        <th>Dias</th>
+                        <th>Horarios</th>
+                    </tr>
+                    <tr>
+                        <td style="color: rgb(33, 84, 177);">Lunes</td>
+                        <td style="color: rgb(33, 84, 177);">8:00-AM/5:00-PM</td>
+                    </tr>
+                    <tr>
+                        <td style="color: rgb(33, 84, 177);">Martes</td>
+                        <td style="color: rgb(33, 84, 177);">8:00-AM/5:00-PM</td>
+                    </tr>
+                    <tr>
+                        <td style="color: rgb(33, 84, 177);">Miercoles</td>
+                        <td style="color: rgb(33, 84, 177);">8:00-AM/5:00-PM</td>
+                    </tr>
+                    <tr>
+                        <td style="color: rgb(33, 84, 177);">Jueves</td>
+                        <td style="color: rgb(33, 84, 177);">8:00-AM/5:00-PM</td>
+                    </tr>
+                    <tr>
+                        <td style="color: rgb(33, 84, 177);">Viernes</td>
+                        <td style="color: rgb(33, 84, 177);">8:00-AM/5:00-PM</td>
+                    </tr>
+                    <tr>
+                        <td style="color: rgb(33, 84, 177);">Sabado</td>
+                        <td style="color: rgb(33, 84, 177);">8:00-AM/12:00-PM</td>
+                    </tr>
+                </table>
+                <h3 class="sorry" >Lo siento pero los Domingos no laboro</h3>    
+            </div>
+        </aside>
+    </body>
+</div>
+</html>

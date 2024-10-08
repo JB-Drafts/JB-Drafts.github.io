@@ -1,0 +1,55 @@
+.contenedor{
+
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+body{
+
+    background-color: rgb(238, 233, 235);
+}
+.nombre-e{
+
+
+    font-family: "cuba";
+    text-align: center;
+    font-size: 34px;
+    text-decoration: underline;
+}
+.tarjeta{
+
+    background-color: whitesmoke;
+    
+}
+.menu{
+
+text-align: center;
+font-size: 25px;
+}
+
+.menuu{
+
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px; 
+    text-align: center;
+
+}    
+.a-1{
+    text-align: left;
+    margin-right:10px;
+}
+
+.a-2{
+    text-align: center;
+    margin:10px,10px;
+}
+.a-3{
+    text-align: right;
+    margin-left:10px; 
+}
+
+.a-1:hover{
+    color: orange;
+}
