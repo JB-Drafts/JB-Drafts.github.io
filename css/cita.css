@@ -89,3 +89,18 @@ aside{
     margin-left:10px;
     margin-top: 10px; 
 }
+.f-1:hover{
+    text-decoration: none;
+    text-decoration: overline solid black 5px;
+    color: crimson;
+}
+.f-2:hover{
+    text-decoration: none;
+    text-decoration: overline solid black 5px;
+    color: crimson;
+}
+.f-3:hover{
+    text-decoration: none;
+    text-decoration: overline solid black 5px;
+    color: crimson;
+}
