@@ -60,6 +60,22 @@ body{
     margin-left:10px;
 }
 
+.a-1:hover{
+    text-decoration: none;
+    text-decoration: overline solid black 5px;
+    color: crimson;
+}
+.a-2:hover{
+    text-decoration: none;
+    text-decoration: overline solid black 5px;
+    color: crimson;
+}
+.a-3:hover{
+    text-decoration: none;
+    text-decoration: overline solid black 5px;
+    color: crimson;
+}
+
 
 .subt{
     color: black;
