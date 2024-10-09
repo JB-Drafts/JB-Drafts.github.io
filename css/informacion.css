@@ -51,5 +51,17 @@ font-size: 25px;
 }
 
 .a-1:hover{
-    color: orange;
+    text-decoration: none;
+    text-decoration: overline solid black 5px;
+    color: crimson;
+}
+.a-2:hover{
+    text-decoration: none;
+    text-decoration: overline solid black 5px;
+    color: crimson;
+}
+.a-3:hover{
+    text-decoration: none;
+    text-decoration: overline solid black 5px;
+    color: crimson;
 }
