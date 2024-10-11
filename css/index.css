@@ -109,7 +109,7 @@ body{
     opacity: .9;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1440px) {
     .contenedor{
         width: auto;
         height: auto;
