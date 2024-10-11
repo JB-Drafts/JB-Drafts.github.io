@@ -109,7 +109,7 @@ body{
     opacity: .9;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 800px) {
     .contenedor{
         width: auto;
         height: auto;
@@ -133,7 +133,7 @@ body{
     
     .imagen-inicio{
         height: 700px;
-        width: 700px;
+        width: 900px;
         border: none;
         margin: auto;
         /* display: flex; */
@@ -169,4 +169,4 @@ body{
     }
 
 
-  }
+}
