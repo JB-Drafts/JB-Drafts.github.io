@@ -62,3 +62,149 @@ body{
     text-decoration: overline solid black 5px;
     color: crimson;
 }
+
+@media only screen and (max-width: 550px) {
+
+    .menuu{
+        max-width: 100%;
+    }
+
+    .menunav{
+        max-width: 100%;
+    }
+
+    .menuu{
+
+        align-items: center;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 8px; 
+        text-align: center;
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .a-1{
+        text-align: left;
+        max-width: 100%;
+    }
+    
+    .a-2{
+        text-align: center;
+        max-width: 100%;
+    }
+    .a-3{
+        text-align: right;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .menuu{
+        max-width: 100%;
+    }
+
+    .menunav{
+        max-width: 100%;
+    }
+
+    .menuu{
+
+        align-items: center;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 8px; 
+        text-align: center;
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .a-1{
+        text-align: left;
+        max-width: 100%;
+    }
+    
+    .a-2{
+        text-align: center;
+        max-width: 100%;
+    }
+    .a-3{
+        text-align: right;
+        max-width: 100%;
+    }
+
+}
+@media only screen and (max-width: 1300px) {
+
+    .menuu{
+        max-width: 100%;
+    }
+
+    .menunav{
+        max-width: 100%;
+    }
+
+    .menuu{
+
+        align-items: center;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 8px; 
+        text-align: center;
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .a-1{
+        text-align: left;
+        max-width: 100%;
+    }
+    
+    .a-2{
+        text-align: center;
+        max-width: 100%;
+    }
+    .a-3{
+        text-align: right;
+        max-width: 100%;
+    }
+
+}
+@media only screen and (max-width: 1440px) {
+
+    .menuu{
+        max-width: 100%;
+    }
+
+    .menunav{
+        max-width: 100%;
+    }
+
+    .menuu{
+
+        align-items: center;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 8px; 
+        text-align: center;
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .a-1{
+        text-align: left;
+        max-width: 100%;
+    }
+    
+    .a-2{
+        text-align: center;
+        max-width: 100%;
+    }
+    .a-3{
+        text-align: right;
+        max-width: 100%;
+    }
+
+}

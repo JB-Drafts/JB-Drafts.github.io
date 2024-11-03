@@ -2,18 +2,43 @@
 .contenedor{
     width: auto;
     height: auto;
-    box-sizing: border-box;
+    
 }
+
 .cimagenes{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
+    margin: auto;
+    background-color: white;
+    height: auto;
+    width:auto;
+    box-sizing: border-box;
+} 
+
+.contimages{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    background-color: white;
+    height: auto;
+    width:auto;
+    box-sizing: border-box;
+    /* grid-template-columns: auto auto auto; */
+    column-gap: 10px; /* para espacios entre filas */
+    row-gap: 10px; /* para espacios entre columnas */
+    gap: 10px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+    y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
+    lo puse como ejemplo */
 }
 
 body{
-    background-color: rgb(238, 233, 235);
+
     box-sizing: border-box;
     margin: auto;
     text-align: center;
+    background-color: rgb(238, 233, 235);
+
 }
 
 .titulo{
@@ -24,64 +49,16 @@ body{
     text-decoration: underline;
 }
 
-.imagen-inicio{
 
-    margin: auto;
-    background-image: url("imagenes/madera.jpeg");
-    height: 330px;
-    width:310px;
-    align-self: center;
-    box-sizing: border-box;
-    justify-content: space-between;
-    margin: 10px;
 
-}
-    
 
-.imagen1{
-    height: 100px;
-    width: 100px;
-    margin-top: 10px;
-}
-.imagen2{
-    height: 100px;
-    width: 100px;
-    margin-top: 10px;
-}
-.imagen3{
-    height: 100px;
-    width: 100px;
-    margin-top: 10px;               
-}
-.imagen4{
-    height: 100px;
-    width: 100px;
-}
-.imagen5{
+.foto{
     height: 100px;
     width: 100px;
     
 }
-.imagen6{
-    height: 100px;
-    width: 100px;
-    
-}
-.imagen7{
-    height: 100px;
-    width: 100px;
 
-}
-.imagen8{
-    height: 100px;
-    width: 100px;
-    
-}
-.imagen9{
-    height: 100px;
-    width: 100px;
-    
-}
+
 
  
 .menuu{
@@ -89,23 +66,33 @@ body{
     align-items: center;
     justify-content: space-between;
     font-family: Helvetica, sans-serif;
-    margin-bottom: 5px; 
     text-align: center;
     font-size: 20px;
+    height: 30px; 
+    padding-top:2.5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
 }
+
+
     
     
 .a-1{
+    margin: auto;
     text-align: left;
-    margin-right:10px;
+    margin-right: 10px;
 
 }
 
 .a-2{
+    margin: auto;
     text-align: center;
     margin:10px,10px;
 }
 .a-3{
+    margin: auto;
     text-align: right;
     margin-left:10px;
 }
@@ -161,36 +148,64 @@ body{
     }
 
     .cimagenes{
-        display: flex;
+        height: auto;
+        width: auto;
+        display: inline-flex;
         justify-content: center;
+        margin: auto;
+        box-sizing: border-box;
     }
     
+    .contimages{
+        height: auto;
+        width: auto;
+        box-sizing: border-box;
+        column-gap: 5px; /* para espacios entre filas */
+        row-gap: 5px; /* para espacios entre columnas */
+        gap: 5px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+        y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
+        lo puse como ejemplo */
+    }
+
+    .foto{
+        max-width:100%;
+        
+    }    
     
     
     body{
         text-align: center;
+        box-sizing: border-box;
     }
     
-    .imagen-inicio{
-        margin: auto;
-        background-color: black;
-        height: 330px;
-        width:310px;
-        align-self: center;
-        box-sizing: border-box;
-        justify-content: space-between;
-        margin: 10px;
-    }
+
     
     .menuu{
-    
+
         align-items: center;
         justify-content: space-between;
-        font-family: Helvetica, sans-serif;
-        margin-bottom: 5px; 
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 8px; 
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
+        max-width: 100%;
     }
+
+    .a-1{
+        text-align: left;
+        max-width: 100%;
+    }
+    
+    .a-2{
+        text-align: center;
+        max-width: 100%;
+    }
+    .a-3{
+        text-align: right;
+        max-width: 100%;
+    }
+
+
 
     .subt{
         color: black;
@@ -200,56 +215,280 @@ body{
         text-transform: capitalize;
         margin-top: 5px;
     }
-    .imagen-i{
+}
+
+@media only screen and (max-width: 1300px){
+
+    .contenedor{
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
         vertical-align: middle;
-        height: 800px;
-        width: 2000px;
-        border: none;
-        width: 95%;
+    }
+
+    .cimagenes{
+        height: auto;
+        width: auto;
+        display: inline-flex;
+        justify-content: center;
         margin: auto;
+        box-sizing: border-box;
     }
-    .imagen1{
-        height: 100px;
-        width: 100px;
-        /* margin-top: 10px; */
-    }
-    .imagen2{
-        height: 100px;
-        width: 100px;
-        /* margin-top: 10px; */
-    }
-    .imagen3{
-        height: 100px;
-        width: 100px;
-        /* margin-top: 10px;                */
-    }
-    .imagen4{
-        height: 100px;
-        width: 100px;
-    }
-    .imagen5{
-        height: 100px;
-        width: 100px;
-        
-    }
-    .imagen6{
-        height: 100px;
-        width: 100px;
-        
-    }
-    .imagen7{
-        height: 100px;
-        width: 100px;
+
     
+    
+    .contimages{
+        height: auto;
+        width: auto;
+        box-sizing: border-box;
+        column-gap: 5px; /* para espacios entre filas */
+        row-gap: 5px; /* para espacios entre columnas */
+        gap: 5px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+        y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
+        lo puse como ejemplo */
     }
-    .imagen8{
-        height: 100px;
-        width: 100px;
-        
+
+    .foto{
+        max-width:100%;        
     }
-    .imagen9{
-        height: 100px;
-        width: 100px;
-        
+    
+    
+    body{
+        text-align: center;
+        box-sizing: border-box;
     }
+    
+
+    
+    .menuu{
+
+        align-items: center;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 8px; 
+        text-align: center;
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .a-1{
+        text-align: left;
+        max-width: 100%;
+    }
+    
+    .a-2{
+        text-align: center;
+        max-width: 100%;
+    }
+    .a-3{
+        text-align: right;
+        max-width: 100%;
+    }
+
+    .subt{
+        color: black;
+        font-family: initial;
+        display: inline;
+        font-size: 26px;
+        text-transform: capitalize;
+        margin-top: 5px;
+        height: auto;
+        width: auto;
+    }
+
+    .contimages{
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+    
+        background-color: white;
+        height: auto;
+        width:auto;
+        box-sizing: border-box;
+        grid-template-columns: auto auto auto; 
+        column-gap: 5px; /* para espacios entre filas */
+        row-gap: 5px; /* para espacios entre columnas */
+        gap: 5px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+        y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
+        lo puse como ejemplo */
+    }
+}
+@media only screen and (max-width: 750px){
+
+    .contenedor{
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+
+    .cimagenes{
+        height: auto;
+        width: auto;
+        display: inline-flex;
+        justify-content: center;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    
+    
+    .contimages{
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+    
+        background-color: white;
+        height: auto;
+        width:auto;
+        box-sizing: border-box;
+        grid-template-columns: auto auto auto; 
+        column-gap: 2px; /* para espacios entre filas */
+        row-gap: 2px; /* para espacios entre columnas */
+        gap: 2px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+        y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
+        lo puse como ejemplo */
+    }
+    
+
+    .foto{
+        max-width:100%;        
+    }
+    
+    
+    body{
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+
+    
+    .menuu{
+
+        align-items: center;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 8px; 
+        text-align: center;
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .a-1{
+        text-align: left;
+        max-width: 100%;
+    }
+    
+    .a-2{
+        text-align: center;
+        max-width: 100%;
+    }
+    .a-3{
+        text-align: right;
+        max-width: 100%;
+    }
+
+    .subt{
+        color: black;
+        font-family: initial;
+        display: inline;
+        font-size: 26px;
+        text-transform: capitalize;
+        margin-top: 5px;
+        height: auto;
+        width: auto;
+    }
+
+    
+    
+}
+
+@media only screen and (max-width: 550px){
+
+    .contenedor{
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+
+    .cimagenes{
+        height: auto;
+        width: auto;
+        display: inline-flex;
+        justify-content: center;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    
+    
+    .contimages{
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+    
+        background-color: white;
+        height: auto;
+        width:auto;
+        box-sizing: border-box;
+        grid-template-columns: auto auto auto; 
+        column-gap: 2px; /* para espacios entre filas */
+        row-gap: 2px; /* para espacios entre columnas */
+        gap: 2px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+        y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
+        lo puse como ejemplo */
+    }
+    
+
+    .foto{
+        max-width:100%;        
+    }
+    
+    
+    body{
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+
+    
+    .menuu{
+
+        align-items: center;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 8px; 
+        text-align: center;
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .a-1{
+        text-align: left;
+        max-width: 100%;
+    }
+    
+    .a-2{
+        text-align: center;
+        max-width: 100%;
+    }
+    .a-3{
+        text-align: right;
+        max-width: 100%;
+    }
+
+    .subt{
+        color: black;
+        font-family: initial;
+        display: inline;
+        font-size: 26px;
+        text-transform: capitalize;
+        margin-top: 5px;
+        height: auto;
+        width: auto;
+    }
+
+    
+    
 }
