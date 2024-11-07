@@ -69,16 +69,16 @@ body{
 }
 .a-1{
     text-align: left;
-    margin-right:10px;
+    margin-right:20%;
 }
 
 .a-2{
     text-align: center;
-    margin:10px,10px;
+    margin:0,10px,0,10px;
 }
 .a-3{
     text-align: right;
-    margin-left:10px; 
+    margin-left:20%; 
 }
 .a-1:hover{
     text-decoration: none;
