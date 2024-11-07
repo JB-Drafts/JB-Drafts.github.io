@@ -183,7 +183,8 @@ body{
     opacity: .9;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 550px){
+
     .contenedor{
         width: auto;
         height: auto;
@@ -199,23 +200,30 @@ body{
         margin: auto;
         box-sizing: border-box;
     }
+
+    
     
     .contimages{
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+    
+        background-color: white;
         height: auto;
-        width: auto;
+        width:auto;
         box-sizing: border-box;
-        column-gap: 5px; /* para espacios entre filas */
-        row-gap: 5px; /* para espacios entre columnas */
-        gap: 5px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+        grid-template-columns: auto auto auto; 
+        column-gap: 2px; /* para espacios entre filas */
+        row-gap: 2px; /* para espacios entre columnas */
+        gap: 2px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
         y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
         lo puse como ejemplo */
     }
+    
 
     .foto{
-        max-width:100%;
-        max-height:100%;
-        
-    }    
+        max-width:100%;        
+    }
     
     
     body{
@@ -233,24 +241,22 @@ body{
         margin-bottom: 8px; 
         text-align: center;
         font-size: 18px;
-        width: 100%;
+        max-width: 100%;
     }
 
     .a-1{
         text-align: left;
-        width: 100%;
+        max-width: 100%;
     }
     
     .a-2{
         text-align: center;
-        width: 100%;
+        max-width: 100%;
     }
     .a-3{
         text-align: right;
-        width: 100%;
+        max-width: 100%;
     }
-
-
 
     .subt{
         color: black;
@@ -259,8 +265,104 @@ body{
         font-size: 26px;
         text-transform: capitalize;
         margin-top: 5px;
+        height: auto;
+        width: auto;
     }
+
+    
+    
 }
+
+@media only screen and (max-width: 750px){
+
+    .contenedor{
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+
+    .cimagenes{
+        height: auto;
+        width: auto;
+        display: inline-flex;
+        justify-content: center;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    
+    
+    .contimages{
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+    
+        background-color: white;
+        height: auto;
+        width:auto;
+        box-sizing: border-box;
+        grid-template-columns: auto auto auto; 
+        column-gap: 2px; /* para espacios entre filas */
+        row-gap: 2px; /* para espacios entre columnas */
+        gap: 2px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+        y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
+        lo puse como ejemplo */
+    }
+    
+
+    .foto{
+        max-width:100%;        
+    }
+    
+    
+    body{
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+
+    
+    .menuu{
+
+        align-items: center;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 8px; 
+        text-align: center;
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .a-1{
+        text-align: left;
+        max-width: 100%;
+    }
+    
+    .a-2{
+        text-align: center;
+        max-width: 100%;
+    }
+    .a-3{
+        text-align: right;
+        max-width: 100%;
+    }
+
+    .subt{
+        color: black;
+        font-family: initial;
+        display: inline;
+        font-size: 26px;
+        text-transform: capitalize;
+        margin-top: 5px;
+        height: auto;
+        width: auto;
+    }
+
+    
+    
+}
+
 
 @media only screen and (max-width: 1300px){
 
@@ -358,8 +460,8 @@ body{
         lo puse como ejemplo */
     }
 }
-@media only screen and (max-width: 750px){
 
+@media only screen and (max-width: 1440px) {
     .contenedor{
         width: auto;
         height: auto;
@@ -375,30 +477,23 @@ body{
         margin: auto;
         box-sizing: border-box;
     }
-
-    
     
     .contimages{
-
-        display: grid;
-        grid-template-columns: auto auto auto;
-    
-        background-color: white;
         height: auto;
-        width:auto;
+        width: auto;
         box-sizing: border-box;
-        grid-template-columns: auto auto auto; 
-        column-gap: 2px; /* para espacios entre filas */
-        row-gap: 2px; /* para espacios entre columnas */
-        gap: 2px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+        column-gap: 5px; /* para espacios entre filas */
+        row-gap: 5px; /* para espacios entre columnas */
+        gap: 5px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
         y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
         lo puse como ejemplo */
     }
-    
 
     .foto{
-        max-width:100%;        
-    }
+        max-width:100%;
+        max-height:100%;
+        
+    }    
     
     
     body{
@@ -433,95 +528,6 @@ body{
         max-width: 100%;
     }
 
-    .subt{
-        color: black;
-        font-family: initial;
-        display: inline;
-        font-size: 26px;
-        text-transform: capitalize;
-        margin-top: 5px;
-        height: auto;
-        width: auto;
-    }
-
-    
-    
-}
-
-@media only screen and (max-width: 550px){
-
-    .contenedor{
-        width: auto;
-        height: auto;
-        box-sizing: border-box;
-        vertical-align: middle;
-    }
-
-    .cimagenes{
-        height: auto;
-        width: auto;
-        display: inline-flex;
-        justify-content: center;
-        margin: auto;
-        box-sizing: border-box;
-    }
-
-    
-    
-    .contimages{
-
-        display: grid;
-        grid-template-columns: auto auto auto;
-    
-        background-color: white;
-        height: auto;
-        width:auto;
-        box-sizing: border-box;
-        grid-template-columns: auto auto auto; 
-        column-gap: 2px; /* para espacios entre filas */
-        row-gap: 2px; /* para espacios entre columnas */
-        gap: 2px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
-        y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
-        lo puse como ejemplo */
-    }
-    
-
-    .foto{
-        max-width:100%;        
-    }
-    
-    
-    body{
-        text-align: center;
-        box-sizing: border-box;
-    }
-    
-
-    
-    .menuu{
-
-        align-items: center;
-        justify-content: space-between;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 8px; 
-        text-align: center;
-        font-size: 18px;
-        max-width: 100%;
-    }
-
-    .a-1{
-        text-align: left;
-        max-width: 100%;
-    }
-    
-    .a-2{
-        text-align: center;
-        max-width: 100%;
-    }
-    .a-3{
-        text-align: right;
-        max-width: 100%;
-    }
 
     .subt{
         color: black;
@@ -530,10 +536,7 @@ body{
         font-size: 26px;
         text-transform: capitalize;
         margin-top: 5px;
-        height: auto;
-        width: auto;
     }
-
-    
-    
 }
+
+
