@@ -58,66 +58,6 @@ body{
     width: 100px;
     
 }
-/* 
-------------------------------
-.menuu{
-    
-    align-items: center;
-    justify-content: space-between;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    font-size: 20px;
-    height: 30px; 
-    padding-top:2.5px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-
-    
-    
-.a-1{
-    margin: auto;
-    text-align: left;
-    margin-right: 10px;
-
-}
-
-.a-2{
-    margin: auto;
-    text-align: center;
-    margin:10px,10px;
-}
-.a-3{
-    margin: auto;
-    text-align: right;
-    margin-left:10px;
-}
-
-.a-1:hover{
-    text-decoration: none;
-    text-decoration: overline solid black 5px;
-    color: crimson;
-}
-.a-2:hover{
-    text-decoration: none;
-    text-decoration: overline solid black 5px;
-    color: crimson;
-}
-.a-3:hover{
-    text-decoration: none;
-    text-decoration: overline solid black 5px;
-    color: crimson;
-}
-
---------------------------------
-*/
-
-
-
-
 .menuu{
 
     align-items: center;
@@ -246,7 +186,8 @@ body{
 
     .a-1{
         text-align: left;
-        max-width: 100%;
+        max-width: 100%; 
+        margin-right:15px;
     }
     
     .a-2{
@@ -256,6 +197,7 @@ body{
     .a-3{
         text-align: right;
         max-width: 100%;
+        margin-left:15px;
     }
 
     .subt{
