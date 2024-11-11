@@ -58,26 +58,49 @@ body{
     
 }
 .menuu{
-
+    
     align-items: center;
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 8px; 
+    font-family: Helvetica, sans-serif;
     text-align: center;
     font-size: 20px;
+    height: 30px; 
+    padding-top:2.5px;
+    display:flexbox;
+    
 }
+
+
+    
+    
 .a-1{
     text-align: left;
-    margin-right:20%;
+    margin-right: 10px;
+    color: darkblue;
+    width: 100%;
+    animation-name: example;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+
 }
 
 .a-2{
     text-align: center;
-    margin:0,10px,0,10px;
+    margin:10px,10px;
+    color: darkblue;
+    width: 100%;
+    animation-name: example;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
 }
 .a-3{
     text-align: right;
-    margin-left:20%; 
+    margin-left:10px;
+    color: darkblue;
+    width: 100%;
+    animation-name: example;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
 }
 .a-1:hover{
     text-decoration: none;
@@ -95,6 +118,10 @@ body{
     color: crimson;
 }
 
+@keyframes example {
+    0% {color: darkblue;}
+    100%{color: rgb(61, 61, 233);}
+  }
 
 
 .subt{
@@ -103,6 +130,7 @@ body{
     display: inline;
     font-size: 26px;
     text-transform: capitalize;
+    width: 100%;
 
 }
 
@@ -112,6 +140,7 @@ body{
 
     font-size: 26px;
     color: darkblue;
+    width: 100%;
 
     
 }
