@@ -1,8 +1,6 @@
-
 .contenedor{
     width: auto;
     height: auto;
-    box-sizing: border-box;
     
 }
 
@@ -21,7 +19,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
 
-    background-color: white;
+    background-color: transparent;
     height: auto;
     width:auto;
     box-sizing: border-box;
@@ -38,10 +36,11 @@ body{
     box-sizing: border-box;
     margin: auto;
     text-align: center;
-    background-color: rgb(238, 233, 235);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
-
 .titulo{
 
     font-family: "cuba";
