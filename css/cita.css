@@ -127,6 +127,93 @@ aside{
     100%{color: rgb(61, 61, 233);}
   }
 
+@media only screen and (max-width: 200px){
+
+    .titulo{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menuu{
+
+        align-items: center;
+        vertical-align: middle;
+        justify-content: space-between;
+        font-family:Helvetica, sans-serif;
+        margin-bottom: 8px; 
+        text-align: center;
+        font-size: 13px;
+        max-width: 100%;
+        }
+    
+        .a-1{
+        text-align: left;
+        max-width: 100%;
+        }
+    
+        .a-2{
+        text-align: center;
+        max-width: 100%;
+        }
+        .a-3{
+        text-align: right;
+        max-width: 100%;
+        }
+        .cambiar{
+            font-size: 12px;
+        }
+        .input{
+            width: 100%;
+        }
+
+        textarea{
+            width: 100px;
+        }
+}
+
+@media only screen and (max-width:300px){
+
+    .titulo{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menuu{
+
+        align-items: center;
+        vertical-align: middle;
+        justify-content: space-between;
+        font-family:Helvetica, sans-serif;
+        margin-bottom: 8px; 
+        text-align: center;
+        font-size: 13px;
+        max-width: 100%;
+        }
+    
+        .a-1{
+        text-align: left;
+        max-width: 100%;
+        }
+    
+        .a-2{
+        text-align: center;
+        max-width: 100%;
+        }
+        .a-3{
+        text-align: right;
+        max-width: 100%;
+        }
+        .cambiar{
+            font-size: 1px;
+        }
+        .input{
+            width: 100%;
+        }
+        textarea{
+            width: 100px;
+        }
+}
+
 @media only screen and (max-width: 550px) {
 
 
