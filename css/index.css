@@ -188,6 +188,8 @@ body{
     
 
     .foto{
+
+        
         width:100%;         
     }
     
@@ -209,7 +211,6 @@ body{
 
         align-items: center;
         vertical-align: middle;
-        justify-content:center;
         justify-content: space-between;
         font-family:Helvetica, sans-serif;
         margin-bottom: 8px; 
