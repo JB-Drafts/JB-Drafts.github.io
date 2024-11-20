@@ -49,9 +49,6 @@ body{
     text-decoration: underline;
 }
 
-
-
-
 .foto{
     height: 100px;
     width: 100px;
@@ -149,6 +146,89 @@ body{
     color: crimson;
     text-decoration: overline 3px black;
     opacity: .9;
+}
+@media only screen and (max-width: 240px){
+
+    .contenedor{
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+
+    .cimagenes{
+        height: auto;
+        width: auto;
+        display: inline-flex;
+        justify-content: center;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    
+    
+    .contimages{
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+    
+        background-color: white;
+        height: auto;
+        width:auto;
+        box-sizing: border-box;
+        grid-template-columns: auto auto auto; 
+        column-gap: 2px; /* para espacios entre filas */
+        row-gap: 2px; /* para espacios entre columnas */
+        gap: 2px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+        y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
+        lo puse como ejemplo */
+    }
+    
+
+    .foto{
+        width:100%;         
+    }
+    
+    
+    body{
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+
+    
+    
+    .titulo{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menuu{
+
+        align-items: center;
+        vertical-align: middle;
+        justify-content: space-between;
+        font-family:Helvetica, sans-serif;
+        margin-bottom: 8px; 
+        text-align: center;
+        font-size: 13px;
+        max-width: 100%;
+        }
+    
+        .a-1{
+        text-align: left;
+        max-width: 100%;
+        }
+    
+        .a-2{
+        text-align: center;
+        max-width: 100%;
+        }
+        .a-3{
+        text-align: right;
+        max-width: 100%;
+        }
+
 }
 
 @media only screen and (max-width: 550px){
