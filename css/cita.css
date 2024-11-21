@@ -34,7 +34,6 @@ textarea{
     background-color: rgb(222, 208, 233);
     border-color:rgb(222, 208, 233); ;
 }
-
 input{
     background-color: rgb(222, 208, 233); 
     height:15px;
@@ -206,7 +205,7 @@ aside{
         max-width: 100%;
         }
         .cambiar{
-            font-size: 1px;
+            font-size: 12px;
         }
         .input{
             width: 100%;
