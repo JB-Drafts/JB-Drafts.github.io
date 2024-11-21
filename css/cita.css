@@ -34,8 +34,10 @@ textarea{
     background-color: rgb(222, 208, 233);
     border-color:rgb(222, 208, 233); ;
 }
+
 input{
     background-color: rgb(222, 208, 233); 
+    height:15px;
     width: 250px;
     border-radius: 20px;
     border-style: none;
