@@ -128,6 +128,7 @@ aside{
     100%{color: rgb(61, 61, 233);}
   }
 
+
 @media only screen and (max-width: 200px){
 
     .titulo{
@@ -245,6 +246,7 @@ aside{
     .cambiar{
         font-size: 12px;
     }
+
     #cambia{
         font-size: 10px;
     }
