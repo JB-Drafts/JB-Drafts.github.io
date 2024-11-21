@@ -244,6 +244,9 @@ aside{
     .cambiar{
         font-size: 12px;
     }
+    #cambia{
+        font-size: 10px;
+    }
 }
 @media only screen and (max-width: 750px) {
 
