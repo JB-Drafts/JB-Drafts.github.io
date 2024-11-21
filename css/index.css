@@ -24,9 +24,9 @@
     width:auto;
     box-sizing: border-box;
     /* grid-template-columns: auto auto auto; */
-    column-gap: 10px; /* para espacios entre filas */
-    row-gap: 10px; /* para espacios entre columnas */
-    gap: 10px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+    column-gap: 7px; /* para espacios entre filas */
+    row-gap: 7px; /* para espacios entre columnas */
+    gap: 7px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
     y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
     lo puse como ejemplo */
 }
@@ -41,6 +41,7 @@ body{
     background-attachment: fixed;
 
 }
+
 .titulo{
 
     font-family: "cuba";
@@ -49,12 +50,18 @@ body{
     text-decoration: underline;
 }
 
-.foto{
 
+
+
+.foto{
     height: 100px;
     width: 100px;
     
 }
+
+
+
+ 
 .menuu{
     
     align-items: center;
@@ -100,6 +107,7 @@ body{
     animation-duration:10s;
     animation-iteration-count: infinite;
 }
+
 .a-1:hover{
     text-decoration: none;
     text-decoration: overline solid black 5px;
@@ -120,7 +128,6 @@ body{
     0% {color: darkblue;}
     100%{color: rgb(61, 61, 233);}
   }
-
 
 .subt{
     color: black;
@@ -211,30 +218,33 @@ body{
     .menuu{
 
         align-items: center;
-        justify-content: space-between;
         vertical-align: middle;
+        justify-content: space-between;
         font-family:Helvetica, sans-serif;
         margin-bottom: 8px; 
         text-align: center;
         font-size: 11px;
-        width: 100%;
+        max-width: 100%;
         }
     
         .a-1{
         text-align: left;
-        width: 100%;
+        max-width: 100%;
         }
     
         .a-2{
         text-align: center;
-        width: 100%;
+        max-width: 100%;
         }
         .a-3{
         text-align: right;
-        width: 100%;
+        max-width: 100%;
         }
 
 }
+
+
+
 
 @media only screen and (max-width: 550px){
 
@@ -275,7 +285,7 @@ body{
     
 
     .foto{
-        width:100%;        
+        width:100%;          
     }
     
     
@@ -289,8 +299,9 @@ body{
     .menuu{
 
         align-items: center;
+        vertical-align: middle;
         justify-content: space-between;
-        font-family:Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 8px; 
         text-align: center;
         font-size: 18px;
@@ -299,8 +310,7 @@ body{
 
     .a-1{
         text-align: left;
-        max-width: 100%; 
-       
+        max-width: 100%;
     }
     
     .a-2{
@@ -310,7 +320,6 @@ body{
     .a-3{
         text-align: right;
         max-width: 100%;
-        
     }
 
     .subt{
@@ -324,8 +333,6 @@ body{
         width: auto;
     }
 
-    
-    
 }
 
 @media only screen and (max-width: 750px){
@@ -367,7 +374,7 @@ body{
     
 
     .foto{
-        width:100%;        
+        width:100%;         
     }
     
     
@@ -382,7 +389,7 @@ body{
 
         align-items: center;
         justify-content: space-between;
-        font-family:Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 8px; 
         text-align: center;
         font-size: 18px;
@@ -392,7 +399,6 @@ body{
     .a-1{
         text-align: left;
         max-width: 100%;
-        
     }
     
     .a-2{
@@ -402,7 +408,6 @@ body{
     .a-3{
         text-align: right;
         max-width: 100%;
-        
     }
 
     .subt{
@@ -419,7 +424,6 @@ body{
     
     
 }
-
 
 @media only screen and (max-width: 1300px){
 
@@ -430,174 +434,168 @@ body{
         vertical-align: middle;
     }
 
-    .cimagenes{
-        height: auto;
-        width: auto;
-        display: inline-flex;
-        justify-content: center;
-        margin: auto;
-        box-sizing: border-box;
-    }
+        .cimagenes{
+            height: auto;
+            width: auto;
+            display: inline-flex;
+            justify-content: center;
+            margin: auto;
+            box-sizing: border-box;
+        }
 
-    
-    
-    .contimages{
-        height: auto;
-        width: auto;
-        box-sizing: border-box;
-        column-gap: 5px; /* para espacios entre filas */
-        row-gap: 5px; /* para espacios entre columnas */
-        gap: 5px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
-        y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
-        lo puse como ejemplo */
-    }
 
-    .foto{
-        width:100%;        
-    }
-    
-    
-    body{
-        text-align: center;
-        box-sizing: border-box;
-    }
-    
 
-    
-    .menuu{
+        .contimages{
+            height: auto;
+            width: auto;
+            box-sizing: border-box;
+            column-gap: 5px; /* para espacios entre filas */
+            row-gap: 5px; /* para espacios entre columnas */
+            gap: 5px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+            y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
+            lo puse como ejemplo */
+        }
 
-        align-items: center;
-        justify-content: space-between;
-        font-family:Helvetica, sans-serif;
-        margin-bottom: 8px; 
-        text-align: center;
-        font-size: 18px;
-        max-width: 100%;
-    }
+        .foto{
+            width:100%;          
+        }
 
-    .a-1{
-        text-align: left;
-        max-width: 100%;
+
+        body{
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+
+
+        .menuu{
+
+            align-items: center;
+            justify-content: space-between;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 8px; 
+            text-align: center;
+            font-size: 18px;
+            max-width: 100%;
+        }
+
+        .a-1{
+            text-align: left;
+            max-width: 100%;
+        }
+
+        .a-2{
+            text-align: center;
+            max-width: 100%;
+        }
+        .a-3{
+            text-align: right;
+            max-width: 100%;
+        }
+
+        .subt{
+            color: black;
+            font-family: initial;
+            display: inline;
+            font-size: 26px;
+            text-transform: capitalize;
+            margin-top: 5px;
+            height: auto;
+            width: auto;
+        }
+
+        .contimages{
+
+            display: grid;
+            grid-template-columns: auto auto auto;
         
-    }
-    
-    .a-2{
-        text-align: center;
-        max-width: 100%;
-    }
-    .a-3{
-        text-align: right;
-        max-width: 100%;
-        
-    }
-
-    .subt{
-        color: black;
-        font-family: initial;
-        display: inline;
-        font-size: 26px;
-        text-transform: capitalize;
-        margin-top: 5px;
-        height: auto;
-        width: auto;
-    }
-
-    .contimages{
-
-        display: grid;
-        grid-template-columns: auto auto auto;
-    
-        background-color: white;
-        height: auto;
-        width:auto;
-        box-sizing: border-box;
-        grid-template-columns: auto auto auto; 
-        column-gap: 5px; /* para espacios entre filas */
-        row-gap: 5px; /* para espacios entre columnas */
-        gap: 5px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
-        y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
-        lo puse como ejemplo */
-    }
+            background-color: white;
+            height: auto;
+            width:auto;
+            box-sizing: border-box;
+            grid-template-columns: auto auto auto; 
+            column-gap: 5px; /* para espacios entre filas */
+            row-gap: 5px; /* para espacios entre columnas */
+            gap: 5px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+            y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
+            lo puse como ejemplo */
+        }
 }
 
-@media only screen and (max-width: 1440px) {
-    .contenedor{
-        width: auto;
-        height: auto;
-        box-sizing: border-box;
-        vertical-align: middle;
-    }
+    @media only screen and (max-width: 1440px) {
+        .contenedor{
+            width: auto;
+            height: auto;
+            box-sizing: border-box;
+            vertical-align: middle;
+        }
 
-    .cimagenes{
-        height: auto;
-        width: auto;
-        display: inline-flex;
-        justify-content: center;
-        margin: auto;
-        box-sizing: border-box;
-    }
-    
-    .contimages{
-        height: auto;
-        width: auto;
-        box-sizing: border-box;
-        column-gap: 5px; /* para espacios entre filas */
-        row-gap: 5px; /* para espacios entre columnas */
-        gap: 5px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
-        y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
-        lo puse como ejemplo */
-    }
+        .cimagenes{
+            height: auto;
+            width: auto;
+            display: inline-flex;
+            justify-content: center;
+            margin: auto;
+            box-sizing: border-box;
+        }
 
-    .foto{
-        width:100%;
-        
-        
-    }    
-    
-    
-    body{
-        text-align: center;
-        box-sizing: border-box;
-    }
-    
+        .contimages{
+            height: auto;
+            width: auto;
+            box-sizing: border-box;
+            column-gap: 5px; /* para espacios entre filas */
+            row-gap: 5px; /* para espacios entre columnas */
+            gap: 5px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+            y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
+            lo puse como ejemplo */
+        }
 
-    
-    .menuu{
+        .foto{
+            width:100%;  
 
-        align-items: center;
-        justify-content: space-between;
-        font-family:Helvetica, sans-serif;
-        margin-bottom: 8px; 
-        text-align: center;
-        font-size: 18px;
-        max-width: 100%;
-    }
-
-    .a-1{
-        text-align: left;
-        max-width: 100%;
-        
-    }
-    
-    .a-2{
-        text-align: center;
-        max-width: 100%;
-    }
-    .a-3{
-        text-align: right;
-        max-width: 100%;
-        
-    }
+        }    
 
 
-    .subt{
-        color: black;
-        font-family: initial;
-        display: inline;
-        font-size: 26px;
-        text-transform: capitalize;
-        margin-top: 5px;
-    }
+        body{
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+
+
+        .menuu{
+
+            align-items: center;
+            justify-content: space-between;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 8px; 
+            text-align: center;
+            font-size: 18px;
+            max-width: 100%;
+        }
+
+        .a-1{
+            text-align: left;
+            max-width: 100%;
+        }
+
+        .a-2{
+            text-align: center;
+            max-width: 100%;
+        }
+        .a-3{
+            text-align: right;
+            max-width: 100%;
+        }
+
+
+
+        .subt{
+            color: black;
+            font-family: initial;
+            display: inline;
+            font-size: 26px;
+            text-transform: capitalize;
+            margin-top: 5px;
+        }
 }
-
-
