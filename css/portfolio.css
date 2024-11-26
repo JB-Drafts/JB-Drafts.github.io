@@ -28,6 +28,19 @@ body{
     opacity: 0.8;
 }
 
+.fotos > p{
+
+width: 100%;
+text-align: start;
+margin-left: 10px;
+text-decoration: none;
+font-weight: bolder;
+font-size: 22px;
+display:flexbox;
+box-sizing: border-box;
+
+}
+
 .noticia{
     text-align: center;
 }
@@ -185,6 +198,12 @@ body{
     }
 
 
+    .p-fotos{
+        font-size: 15px;
+    }
+
+
+
 }
 
 
@@ -228,6 +247,10 @@ body{
         max-width: 100%;
     }
 
+    .p-fotos{
+        font-size: 18px;
+    }
+
 
 }
 
@@ -269,6 +292,10 @@ body{
         text-align: right;
         max-width: 100%;
     }
+
+    .p-fotos{
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -308,6 +335,10 @@ body{
     .a-3{
         text-align: right;
         max-width: 100%;
+    }
+
+    .p-fotos{
+        font-size: 20px;
     }
 
 }
@@ -351,5 +382,9 @@ body{
     .a-3{
         text-align: right;
         max-width: 100%;
+    }
+
+    .p-fotos{
+        font-size: 22px;
     }
 }
