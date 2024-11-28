@@ -20,7 +20,7 @@ body{
     text-align: center;
 }
 .formulario{
-   display: inline;
+    display: inline;
 }
 
 .cambiar{
@@ -126,7 +126,7 @@ aside{
 @keyframes example {
     0% {color: darkblue}
     100%{color: rgb(61, 61, 233);}
-  }
+}
 
 
 @media only screen and (max-width: 200px){
@@ -145,7 +145,7 @@ aside{
         margin-bottom: 8px; 
         text-align: center;
         font-size: 13px;
-        max-width: 100%;
+        width: 100%;
         }
     
         .a-1{
@@ -169,6 +169,7 @@ aside{
         }
 
         textarea{
+            margin-top: 20px;
             width: 100px;
         }
 }

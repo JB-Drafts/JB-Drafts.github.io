@@ -28,21 +28,29 @@ body{
     opacity: 0.8;
 }
 
-.fotos > p{
+
+.p-fotos{
 
 width: 100%;
 text-align: start;
 margin-left: 10px;
-text-decoration: none;
+text-decoration: underline black solid 2px;
 font-weight: bolder;
 font-size: 22px;
-display:flexbox;
 box-sizing: border-box;
+margin-bottom: 10px;
+padding: 0;
+height: auto;
+}
 
+.p-fotos:hover{
+
+    opacity: 1;
 }
 
 .noticia{
     text-align: center;
+    margin: 0;
 }
 .menuu{
 
@@ -155,9 +163,9 @@ box-sizing: border-box;
 @keyframes example {
     0% {color: darkblue;}
     100%{color: rgb(61, 61, 233);}
-  }
+}
 
-  @media only screen and (max-width: 250px) {
+@media only screen and (max-width: 250px) {
 
     .fotos *{
         max-width: 100%;

@@ -54,14 +54,13 @@ body{
 
 
 .foto{
-    height: 100px;
-    width: 100px;
+    width: 130px;
+    height: 130px;
     
 }
 
 
 
- 
 .menuu{
     
     align-items: center;
@@ -72,6 +71,7 @@ body{
     height: 30px; 
     padding-top:2.5px;
     display:flexbox;
+    width: 100%;
     
 }
 
@@ -127,7 +127,7 @@ body{
 @keyframes example {
     0% {color: darkblue;}
     100%{color: rgb(61, 61, 233);}
-  }
+}
 
 .subt{
     color: black;
@@ -285,7 +285,7 @@ body{
     
 
     .foto{
-        width:100%;          
+        width:100%;    
     }
     
     
