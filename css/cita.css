@@ -47,24 +47,6 @@ input{
 }
 
 
-.horarios{
-    font-weight: bold;
-    text-decoration: overline black;
-    margin-top: 25px;
-    margin-bottom: 5px;
-}
-
-aside{
-    float: left;
-    margin-left: 20px;
-}
-.t-horarios{
-    display: inline;
-    margin-bottom: 19px;
-}
-.sorry{
-    text-decoration: underline black;
-}
 .menuu{
 
     align-items: center;
@@ -314,7 +296,7 @@ aside{
         font-size: 12px;
     }
 }
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 1440px),(max-width:2000px) {
 
 
     .menuu{
