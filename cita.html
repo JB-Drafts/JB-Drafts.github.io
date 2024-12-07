@@ -11,77 +11,42 @@
     <link rel="stylesheet" href="css/cursivo-cuba.css">
     <title>Agendar cita</title>
 </head>
-    <body>     
-        <header>
-            <h1 class="titulo">JB the Draftsman</h1>
-        </header>
+    <body>
+        <div class="contenedor">     
+            <header>
+                <h1 class="titulo">JB the Draftsman</h1>
+            </header>
 
-        <nav class="menuu">
-            <a class="a-1" href="index.html"><b>Inicio/Tarjeta</b></a> 
-            <a class="a-2" href="informacion.html"><b>Sobre mi</b></a>
-            <a class="a-3" href="portfolio.html"><b>Portfolio</b></a>
-        </nav>
+            <nav class="menuu">
+                <a class="a-1" href="index.html"><b>Inicio/Tarjeta</b></a> 
+                <a class="a-2" href="informacion.html"><b>Sobre mi</b></a>
+                <a class="a-3" href="portfolio.html"><b>Portfolio</b></a>
+            </nav>
 
-        <table class="tabla">
-            <div class="agendar">
-                <form class="formulario" action="https://formsubmit.co/5800f6e0f41a7facf1f1d0360bdb0c70" method="POST">
-                    
-                    <label class="cambiar" for="nombre" >Nombre:</label>
-                    <input class="input" type="text" name="nombre" required><br>
-                    <label class="cambiar" id="cambia" for="apellido" >Apellido:</label>
-                    <input class="input" type="text" name="apellido" required><br>
-                    <label class="cambiar" for="email">Email:</label>
-                    <input class="input" style="margin-bottom: 2px ;" type="email" name="email" required><br>
-                    <label class="cambiar" for="mensaje">mensaje:</label>
-                    <textarea name="mensaje" rows="4" cols="3" required ></textarea>
-                    <br>
+            <table class="tabla">
+                <div class="agendar">
+                    <form class="formulario" action="https://formsubmit.co/5800f6e0f41a7facf1f1d0360bdb0c70" method="POST">
 
-                    <label for="rango">¿Que te parece esta forma para agendar citas?</label><br>
-                    <input type="range" name="rango">
-                    <br>
+                        <label class="cambiar" for="nombre" >Nombre:</label>
+                        <input class="input" type="text" name="nombre" required><br>
+                        <label class="cambiar" id="cambia" for="apellido" >Apellido:</label>
+                        <input class="input" type="text" name="apellido" required><br>
+                        <label class="cambiar" for="email">Email:</label>
+                        <input class="input" style="margin-bottom: 2px ;" type="email" name="email" required><br>
+                        <label class="cambiar" for="mensaje">mensaje:</label>
+                        <textarea name="mensaje" rows="4" cols="3" required ></textarea>
+                        <br>
 
-                    <label class="cambiar" for="Enviar">Enviar</label>
-                    <input type="submit" name="Enviar" required  id="enviar">
+                        <label for="rango">¿Que te parece esta forma para agendar citas?</label><br>
+                        <input type="range" name="rango">
+                        <br>
 
-                </form>
-            </div>
-        </table>
+                        <label class="cambiar" for="Enviar">Enviar</label>
+                        <input type="submit" name="Enviar" required  id="enviar">
 
-        <aside class="aside">
-            <p class="horarios">Horarios disponibles.</p>
-            <div class="t-horarios">
-                <table>
-                    <tr>
-                        <th>Dias</th>
-                        <th>Horarios</th>
-                    </tr>
-                    <tr>
-                        <td style="color: rgb(33, 84, 177);">Lunes</td>
-                        <td style="color: rgb(33, 84, 177);">8:00-AM/5:00-PM</td>
-                    </tr>
-                    <tr>
-                        <td style="color: rgb(33, 84, 177);">Martes</td>
-                        <td style="color: rgb(33, 84, 177);">8:00-AM/5:00-PM</td>
-                    </tr>
-                    <tr>
-                        <td style="color: rgb(33, 84, 177);">Miercoles</td>
-                        <td style="color: rgb(33, 84, 177);">8:00-AM/5:00-PM</td>
-                    </tr>
-                    <tr>
-                        <td style="color: rgb(33, 84, 177);">Jueves</td>
-                        <td style="color: rgb(33, 84, 177);">8:00-AM/5:00-PM</td>
-                    </tr>
-                    <tr>
-                        <td style="color: rgb(33, 84, 177);">Viernes</td>
-                        <td style="color: rgb(33, 84, 177);">8:00-AM/5:00-PM</td>
-                    </tr>
-                    <tr>
-                        <td style="color: rgb(33, 84, 177);">Sabados</td>
-                        <td style="color: rgb(33, 84, 177);">8:00-AM/12:00-PM</td>
-                    </tr>
-                </table>
-                <h3 class="sorry" >Lo siento pero los Domingos no laboro</h3>    
-            </div>
-        </aside>
+                    </form>
+                </div>
+            </table>
+        </div>
     </body>
 </html>
