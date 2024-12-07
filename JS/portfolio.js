@@ -1,1 +1,1 @@
-alert("En este apartado tiene que tocar o hacer click en la imagen para abrir el plano y también le aviso que para mayor y mejor visualizacion de los planos gire la pantalla de su telefono, si esta en la computadora omita este paso")
+alert("En este apartado tiene que tocar o hacer click en la imagen para abrir el plano y también le aviso que para mayor y mejor visualizacion de los planos gire la pantalla de su telefono, si esta en una computadora omita este paso")
