@@ -24,9 +24,9 @@
     width:auto;
     box-sizing: border-box;
     /* grid-template-columns: auto auto auto; */
-    column-gap: 7px; /* para espacios entre filas */
-    row-gap: 7px; /* para espacios entre columnas */
-    gap: 7px;  /*para ambos, si se ponen los 2 de arriba no hay que poner este
+    column-gap: 4px; /* para espacios entre filas */
+    row-gap: 4px; /* para espacios entre columnas */
+    gap: 4px; /*para ambos, si se ponen los 2 de arriba no hay que poner este
     y si se pone este no hay que poner los 2 de arriba por q este abarca ambos, pero
     lo puse como ejemplo */
 }
