@@ -553,7 +553,8 @@ body{
         }
 
         .foto{
-            width:95%;  
+            width:95%;
+            height:auto;
 
         }    
 
