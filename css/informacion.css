@@ -195,6 +195,11 @@ body{
         text-align: right;
         max-width: 100%;
     }
+    .presentacion{
+
+        width:100%;
+        font-size:10px;
+    }
 
 }
 
@@ -234,6 +239,11 @@ body{
         text-align: right;
         max-width: 100%;
     }
+    .presentacion{
+
+        width:100%;
+
+    }
 
 }
 
@@ -271,6 +281,10 @@ body{
         text-align: right;
         max-width: 100%;
     }
+    .presentacion{
+
+        width:100%;
+    }
 
 }
 @media only screen and (max-width: 1300px) {
@@ -307,6 +321,10 @@ body{
         text-align: right;
         max-width: 100%;
     }
+    .presentacion{
+
+        width:100%;
+    }
 
 }
 @media only screen and (min-width: 1440px),(max-width:2000px) {
@@ -342,6 +360,10 @@ body{
     .a-3{
         text-align: right;
         max-width: 100%;
+    }
+    .presentacion{
+
+        width:100%;
     }
 
 }
