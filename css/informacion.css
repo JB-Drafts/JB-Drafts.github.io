@@ -27,8 +27,8 @@ body{
 .presentacion{
     background-color: transparent;
     color: black;
-    font-family: "cuba";
-    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
     width: 100%;
     text-align: center;  
 }
