@@ -1,6 +1,9 @@
 .contenedor{
     width: auto;
     height: auto;
+    box-sizing:border-box;
+    margin:auto;
+    padding:auto;
     
 }
 
