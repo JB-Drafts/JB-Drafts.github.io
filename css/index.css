@@ -68,6 +68,8 @@ body{
     height: 130px;
     padding:none;
     margin:auto;
+    padding:auto;
+    box-sizing:border-box;
     
 }
 
